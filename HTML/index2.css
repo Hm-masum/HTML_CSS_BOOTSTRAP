@@ -1,0 +1,13 @@
+P{
+    color: brown;
+    background-color: rgb(179, 173, 167);
+}
+#sptag{
+    color: black;
+    background-color: bisque;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}

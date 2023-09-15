@@ -1,0 +1,36 @@
+body{
+
+    /* background-color: rgb(243, 247, 247);
+    border: 2px solid black; */
+
+    background: url("IMG/pexels-fauxels-3184454.jpg");
+    background-size: 1700px 850px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{
+    color: blue;
+}
+
+h2{
+   color: yellowgreen;
+}
+
+/* id selector */
+#second{
+    color: brown;
+}
+
+/* class selector */
+.yellow{
+    border: 2px solid rebeccapurple;
+}
+
+/* group selector */
+h2,h3,p{
+    
+}
+
+h4{
+    color: rgb(84, 194, 117);
+}

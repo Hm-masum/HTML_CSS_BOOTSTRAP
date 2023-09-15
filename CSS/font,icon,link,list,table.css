@@ -1,0 +1,84 @@
+.navber{
+    max-width: 500px;
+    border: 15px solid blue;
+    padding: 15px;
+    margin: auto;
+    font-family: 'Kablammo', cursive;
+}
+#innerlink{
+    display: block;
+    width: 150px;
+    margin: auto;
+    padding: 25px;
+    background-color: black;
+    border-radius: 4px 4px;
+    text-decoration: none;
+}
+#innerlink:link{
+    background-color: yellow;
+    color: rgb(247, 247, 247);
+}
+#innerlink:visited{
+    background-color:red;
+    color:white;
+}
+#innerlink:hover{
+    background-color: rgb(0, 120, 224);
+    color:black;
+}
+#innerlink:checked{
+    background-color: rgb(0, 127, 238);
+    color: white;
+}
+
+.listclass{
+      width: 50%;
+      margin: auto;
+      background-color: blanchedalmond;
+      padding: 20px;
+      margin-top: 100px;
+}
+
+.listclass ol li{
+     color:rgb(0, 0, 0);
+     font-size: 25px;
+     background-color: rgb(61, 59, 59);
+}
+
+.mytable{
+    padding: 200px;
+    background-color: lightgray;
+    margin-top: 20px;
+}
+
+.tablecontainer{
+    width: 70%;
+    margin: auto;
+    padding: 100px;
+    background-color: lightslategrey;
+}
+.tablecontainer table{
+   border: 2px solid black;
+   border-collapse: collapse;
+}
+.tablecontainer table th{
+    border: 2px solid black;
+    padding: 15px;
+    background-color: rgb(1, 156, 27);
+    color: aliceblue;
+   
+ }
+ .tablecontainer table td{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+ }
+
+/* combinators */
+ .mytable div table tr th{
+    background-color: rgb(4, 90, 90);
+ }
+
+ .mytable div>table{
+    background-color: rgb(104, 202, 202);
+ }

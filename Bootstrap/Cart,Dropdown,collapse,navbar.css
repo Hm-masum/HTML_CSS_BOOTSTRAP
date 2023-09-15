@@ -1,0 +1,11 @@
+.container{
+    border: 3px solid blue;
+    padding: 10px;
+}
+.mynavber{
+    background-color: rgb(31, 27, 36);
+}
+.navbar-light{
+    background-color: aqua!important;
+    
+}
